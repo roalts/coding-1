@@ -1,4 +1,4 @@
-package data_structures_1;
+package coding;
 
 import java.util.Scanner;
 
