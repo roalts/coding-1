@@ -10,13 +10,13 @@ public class Leaders {
 //	For example int the array {16, 17, 4, 3, 5, 2}, leaders are 17, 5 and 2.
 
 	public static void main(String[] args) {
-			Scanner s = new Scanner(System.in);
-			int n = s.nextInt();
-			int input[] = new int[n];
-			for(int i = 0; i < n; i++) {
-				input[i] = s.nextInt();
+			Scanner scanner = new Scanner(System.in);
+			int numberOfElements = scanner.nextInt();
+			int input[] = new int[numberOfElements];
+			for(int i = 0; i < numberOfElements; i++) {
+				input[i] = scanner.nextInt();
 			}
-			s.close();
+			scanner.close();
 			longPrintLeaders(input);
 	}
 	
